@@ -14,9 +14,6 @@ This project detects whether a person is wearing a mask through webcam video str
 ## 📹 Demo Video
 👉 [Watch demo on YouTube](https://www.youtube.com/watch?v=-b68jGFwHsg)
 
-## 🖼️ Screenshots
-<img src="https://user-images.githubusercontent.com/your-image-url-example" width="500"/>
-
 ## 🛠 Technologies Used
 - Python 3.8  
 - TensorFlow / Keras  
@@ -27,11 +24,11 @@ This project detects whether a person is wearing a mask through webcam video str
 ## 📁 Project Structure
 .
 ├── dataset/
-│ ├── with_mask/
-│ └── without_mask/
+│   ├── with_mask/
+│   └── without_mask/
 ├── face_detector/
-│ ├── deploy.prototxt
-│ └── res10_300x300_ssd_iter_140000.caffemodel
+│   ├── deploy.prototxt
+│   └── res10_300x300_ssd_iter_140000.caffemodel
 ├── train_mask_detect.py
 ├── realtime_mask_detect.py
 ├── plot.png
@@ -59,7 +56,3 @@ Trần Văn Đạt
 📄 License
 This project is for educational purposes only.
 ---
-
-Bạn chỉ cần sửa lại `https://github.com/yourusername/...` thành repo thật và thêm ảnh minh họa nếu muốn.
-
-Bạn có muốn mình tạo luôn file `.md` và gửi lại?
